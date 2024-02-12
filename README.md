@@ -1,2 +1,2 @@
 # Ian Sosa
-## Frontend developer trainee
+## Aspiring frontend developer | UX/UI Design | Cybersecurity & Privacy
