@@ -1,2 +1,2 @@
 # Ian Sosa
-## Aspiring frontend developer | UX/UI Design | Cybersecurity & Privacy
+## Aspiring frontend developer | Technical Support | UX/UI Design | Cybersecurity & Privacy
