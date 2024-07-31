@@ -1,0 +1,41 @@
+/*
+    MARK: CSS RESET
+*/
+
+/* Simplifico la forma de aplicar tamaños */
+*, *::before, *::after { box-sizing: border-box; }
+
+/* Quito el espaciado predeterminado */
+* { margin: 0; padding: 0; }
+
+/* Aplico dark mode user-agent-styles */
+/* Mejoro la puntuación en los navegadores que lo soporten */
+html { color-scheme: dark light; hanging-punctuation: first last; }
+
+/* min body height para evitar problemas con display:flex */
+body { min-height: 100svh; }
+
+/* imágenes/videos responsive */
+img, picture, svg, video { display: block; max-width: 100%; }
+
+/* Mejoro los títulos en los navegadores que lo soporten */
+h1, h2, h3, h4, h5, h6 { text-wrap: balance; }
+
+/* Mejoro la legibilidad con max-width en párrafos y listas */
+/* Prevengo palabras "huérfanas" en los navegadores que lo soporten */
+p, li { max-width: 65ch; text-wrap: pretty; }
+
+/* Me aseguro que todos los elementos tengan la misma fuente */
+input, button, textarea, select { font: inherit; }
+
+/* Agrego ajustes para accesibilidad con scroll y animaciones */
+@media (prefers-reduced-motion: reduce)  {
+ *, *::before, *::after { 
+ animation-duration: 0.01ms !important; 
+ animation-iteration-count: 1 !important; 
+ transition-duration: 0.01ms !important; 
+ scroll-behavior: auto !important;
+ transition: none;
+ }
+}
+/* ========================================================== */
