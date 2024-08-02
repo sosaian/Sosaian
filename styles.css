@@ -39,3 +39,77 @@ input, button, textarea, select { font: inherit; }
  }
 }
 /* ========================================================== */
+
+html {
+    --clr-primary: #CAC3A7;
+    --clr-secondary: #121212;
+    --clr-accent: #F2F2F2;
+    --text-clr-primary: black;
+    --text-clr-secondary: white;
+    --text-clr-accent: black;
+}
+
+body {
+    background-color: var(--clr-primary);
+    color: var(--text-clr-primary);
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: var(--clr-primary);
+    padding: 0 3vw;
+    position: fixed;
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main {
+    margin: 0 3vw;
+}
+
+#heroContainer {
+    margin-top: 5rem;
+    background-image: URL(https://placehold.co/338x500@2x);
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#aboutContainer{
+    background-color: var(--clr-primary);
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    border-radius: 1rem;
+    padding: 2rem;
+    -webkit-box-shadow: -5px 5px 15px -5px #000000;
+    box-shadow: -5px 5px 15px -5px #000000;
+}
+
+#projectsListContainer {
+    margin-top: 3rem;
+    border-radius: 1rem;
+    padding: 2rem;
+    -webkit-box-shadow: -5px 5px 15px -5px #000000;
+    box-shadow: -5px 5px 15px -5px #000000;
+}
+
+footer {
+    margin-top: 3rem;
+    padding: 0 3vw;
+    background-color: var(--clr-secondary);
+    color: var(--text-clr-secondary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
