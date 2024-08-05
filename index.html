@@ -4,34 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ian Sosa | Web development and tech support</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <img src="https://placehold.co/100x50@2x?text=Ian+Sosa" alt="Ian Sosa branding image">
-        <nav>NAV</nav>
+        <div id="topNavbar">
+            <img src="https://placehold.co/100x48@2x?text=Ian+Sosa" alt="Ian Sosa branding image">
+            <a href="javascript:void(0);" class="icon" onclick="openNavbarDrawer()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <div id="navbarLinks">
+            <a href="javascript:void(0);">Home</a>
+            <a href="#projects">Projects</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact">Contact</a>
+        </div>
     </header>
     <main>
         <div id="heroContainer">
-            <!-- <img src="https://placehold.co/360x500@2x" alt="Image of a samurai helmet, logo of Ian Sosa's personal brand"> -->
-            <h1 translate="no">Ian Sosa</h1>
-            <h2>Frontend Web Developer</h2>
-            <h2>UX/UI designer</h2>
-            <h2>Tech support</h2>
+            <div>
+                <h1 translate="no">Ian Sosa</h1>
+                <h2>Frontend Web Developer</h2>
+                <h2>UX/UI designer</h2>
+                <h2>Tech support</h2>
+            </div>
         </div>
         <div id="aboutContainer">
             <h2>ABOUT ME</h2>
             <p>I am a determined and methodic person seeking my first formal role in IT. While honing my socio-emotional skills at Forge Foundation, I actively pursue personal projects to enhance my coding abilities. Additionally, l have augmented my skill set with UX/UI Design proficiency gained at Coderhouse, making me a valuable asset to any frontend development team.</p>
-        </div>
-        <div id="projectsListContainer">
-            <h2>PROJECTS</h2>
-            <ul>
-                <li>Project 1</li>
-                <li>Project 2</li>
-                <li>Project 3</li>
-                <li>Project 4</li>
-                <li>Project 5</li>
-            </ul>
         </div>
     </main>
     <footer>
@@ -42,5 +44,18 @@
             <li>Twitter</li>
         </ul>
     </footer>
+    
+    <script>
+        // TODO - change implementation for resize case
+
+        function openNavbarDrawer() {
+            let x = document.getElementById("navbarLinks");
+            if (x.style.display === "flex") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "flex";
+            }
+        }
+    </script>
 </body>
 </html>
