@@ -40,13 +40,19 @@ input, button, textarea, select { font: inherit; }
 }
 /* ========================================================== */
 
+/*
+    MARK: GLOBAL VALUES
+*/
+
 html {
-    --clr-primary: #CAC3A7;
-    --clr-secondary: #121212;
-    --clr-accent: #F2F2F2;
-    --text-clr-primary: black;
-    --text-clr-secondary: white;
+    --clr-primary: #121212;
+    --clr-secondary: #F2F2F2;
+    --clr-accent: #CAC3A7;
+    --text-clr-primary: white;
+    --text-clr-secondary: black;
     --text-clr-accent: black;
+
+    font-family: system-ui, sans-serif;
 }
 
 body {
@@ -57,12 +63,18 @@ body {
 }
 
 header {
-    background-color: var(--clr-accent);
-    padding: 1rem 3vw;
     position: fixed;
-    width: 100%;
+    top: 1rem;
+    background-color: var(--clr-primary);
+    color: var(--text-clr-primary);
+    margin: 0 3vw;
+    padding: 2rem 1rem;
+    width: 94vw;
+    align-self: center;
     display: flex;
     flex-direction: column;
+    border-radius: 3rem;
+    border: solid 0.1rem var(--clr-accent);
     -webkit-box-shadow: -5px 5px 15px -5px #000000;
     box-shadow: -5px 5px 15px -5px #000000;
 }
@@ -78,25 +90,25 @@ header {
 #navbarLinks {
     margin-top: 1rem;
     width: 100%;
-    background-color: var(--clr-secondary);
-    color: var(--text-clr-secondary);
     display: none;
     flex-direction: column;
     gap: 0.5rem;
-    border-radius: 0 0 1rem 1rem;
+
 }
 
 #navbarLinks > a {
+    text-decoration: none;
+    background: var(--clr-accent);
+    color: var(--text-clr-accent);
     width: 100%;
     padding: 1rem 0;
-    height: 3rem;
     display: grid;
     place-items: center;
+    border-radius: 3rem;
 }
 
 /* Style navigation menu links */
 #topNavbar a {
-    color: white;
     padding: 1rem;
     text-decoration: none;
     font-size: 1rem;
@@ -107,9 +119,9 @@ header {
 
 /* Style the hamburger menu */
 #topNavbar a.icon {
-    background: var(--clr-primary);
-    color: var(--text-clr-primary);
-    border-radius: 1rem;
+    background: var(--clr-accent);
+    color: var(--text-clr-accent);
+    border-radius: 3rem;
 }
 
 /* Style the active link (or home/logo) */
@@ -119,23 +131,26 @@ header {
 }
 
 main {
-    margin: 0 3vw;
-    padding-top: 5rem;
+    margin: 0;
 }
 
 #heroContainer {
-    background-image: URL(https://placehold.co/338x500@2x);
+    /* background-image: URL(https://placehold.co/338x500@2x);
     background-size: cover;
-    background-position: center;
+    background-position: center; */
+    background: var(--clr-primary);
+    color: var(--text-clr-primary);
     width: auto;
-    height: 500px;
+    height: 100vh;
+    height: 100dvh;
     display: grid;
     place-items: center;
 }
 
-#aboutContainer{
-    background-color: var(--clr-primary);
-    margin-top: 3rem;
+#aboutContainer {
+    background-color: var(--clr-secondary);
+    color: var(--text-clr-secondary);
+    margin: 3rem 5vw 0 5vw;
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -148,16 +163,42 @@ main {
 
 footer {
     margin-top: 3rem;
-    padding: 0 3vw;
-    background-color: var(--clr-secondary);
-    color: var(--text-clr-secondary);
+    padding: 0 3vw 5rem 3vw;
+    border-top: solid 0.2rem var(--clr-accent);
+    background-color: var(--clr-primary);
+    color: var(--text-clr-primary);
     display: flex;
     flex-direction: column;
-    align-items: center;
+    gap: 1rem;
 }
+
+footer > h2 { align-self: center; }
+
+footer > ul {
+    align-self: center;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    width: 90vw;
+}
+
+footer > ul > li {
+    cursor: pointer;
+    min-height: 3rem;
+    width: 33%;
+    display: grid;
+    place-items: center;
+}
+
+/*
+    MARK: MEDIA QUERIES
+*/
 
 @media (min-width: 1200px) {
     header {
+        width: 80vw;
+        padding: 1rem 1rem;
         flex-direction: row;
         justify-content: space-between;
     }
@@ -175,8 +216,7 @@ footer {
         margin-top: 0;
         display: flex;
         flex-direction: row;
-        border-radius: 0;
-        background-color: var(--clr-accent);
-        color: var(--text-clr-accent);
     }
+
+    footer > ul > li { width: 33%; }
 }
