@@ -35,6 +35,21 @@
             <h2>ABOUT ME</h2>
             <p>I am a determined and methodic person seeking my first formal role in IT. While honing my socio-emotional skills at Forge Foundation, I actively pursue personal projects to enhance my coding abilities. Additionally, l have augmented my skill set with UX/UI Design proficiency gained at Coderhouse, making me a valuable asset to any frontend development team.</p>
         </div>
+        <div id="projectsContainer">
+            <h2>Projects</h2>
+            <div id="projectsFilterContainer">
+                <button class="htmlcss" onclick="filterProjects('htmlcss')"">HTML + CSS only</button>
+                <button class="js" onclick="filterProjects('js')">Javascript</button>
+                <button class="react" onclick="filterProjects('react')">React</button>
+                <button class="uxui" onclick="filterProjects('uxui')">UX/UI Design</button>
+            </div>
+            <ul id="projectsListContainer">
+                <li class="htmlcss">HTML + CSS only Project</li>
+                <li class="js">Javascript Project</li>
+                <li class="react">React Project</li>
+                <li class="uxui">UX/UI Design Project</li>
+            </ul>
+        </div>
     </main>
     <footer>
         <h2>Got any project you want to create? Let's talk!</h2>
@@ -55,6 +70,28 @@
             } else {
                 x.style.display = "flex";
             }
+        }
+
+        function filterProjects(project_type) {
+            const buttons = Array.from(document.getElementById("projectsFilterContainer").children)
+
+            let active = false
+
+            buttons.forEach(button => {
+                const MATCHES_TYPE = button.classList.contains(project_type)
+                const IS_ACTIVE = button.classList.contains("active")
+
+                if (MATCHES_TYPE) {
+                    active = IS_ACTIVE
+                    button.classList.toggle("active", !IS_ACTIVE)
+                } else {
+                    button.classList.remove("active")
+                }
+            })
+
+            const children = Array.from(document.getElementById("projectsListContainer").children)
+
+            children.forEach(li => li.classList.toggle("hidden", !active && !li.classList.contains(project_type)))
         }
     </script>
 </body>

@@ -161,6 +161,26 @@ main {
     box-shadow: -5px 5px 15px -5px #000000;
 }
 
+#projectsContainer {
+    background-color: var(--clr-secondary);
+    color: var(--text-clr-secondary);
+    margin: 3rem 5vw 0 5vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    border-radius: 1rem;
+    padding: 2rem;
+    -webkit-box-shadow: -5px 5px 15px -5px #000000;
+    box-shadow: -5px 5px 15px -5px #000000;
+}
+
+#projectsListContainer {
+    list-style: none;
+}
+
+.hidden { display: none; }
+
 footer {
     margin-top: 3rem;
     padding: 0 3vw 5rem 3vw;
