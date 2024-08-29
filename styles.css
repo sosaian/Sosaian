@@ -218,7 +218,9 @@ main {
     overflow: auto;
 }
 
-#projectsFilter > button {
+#projectsFilter > li { list-style: none; }
+
+#projectsFilter > li > button {
     min-width: 9rem;
     max-width: 9rem;
     height: 3rem;

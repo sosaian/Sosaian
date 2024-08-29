@@ -18,7 +18,7 @@ function openNavbarDrawer() {
 }
 
 function filterProjects(project_type) {
-    const buttons = Array.from(document.getElementById("projectsFilter").children)
+    const buttons = Array.from(document.querySelectorAll("#projectsFilter > li > button"))
 
     let active = false
 
