@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ian Sosa | Web development and tech support</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
     <header>
@@ -59,39 +59,6 @@
         </ul>
     </footer>
     
-    <script>
-        // TODO - change implementation for resize case
-
-        function openNavbarDrawer() {
-            let x = document.getElementById("navbarLinks");
-            if (x.style.display === "flex") {
-                x.style.display = "none";
-            } else {
-                x.style.display = "flex";
-            }
-        }
-
-        function filterProjects(project_type) {
-            const buttons = Array.from(document.getElementById("projectsFilterContainer").children)
-
-            let active = false
-
-            buttons.forEach(button => {
-                const MATCHES_TYPE = button.classList.contains(project_type)
-                const IS_ACTIVE = button.classList.contains("active")
-
-                if (MATCHES_TYPE) {
-                    active = IS_ACTIVE
-                    button.classList.toggle("active", !IS_ACTIVE)
-                } else {
-                    button.classList.remove("active")
-                }
-            })
-
-            const children = Array.from(document.getElementById("projectsListContainer").children)
-
-            children.forEach(li => li.classList.toggle("hidden", !active && !li.classList.contains(project_type)))
-        }
-    </script>
+    <script src="./main.js"></script>
 </body>
 </html>

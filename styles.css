@@ -53,13 +53,17 @@ html {
     --text-clr-accent: black;
 
     font-family: system-ui, sans-serif;
+    scroll-behavior: smooth;
 }
 
 body {
+    min-height: 100svh;
+    width: 100vw;
     background-color: var(--clr-primary);
     color: var(--text-clr-primary);
     display: flex;
     flex-direction: column;
+    overflow-x: hidden;
 }
 
 header {
@@ -130,8 +134,13 @@ header {
     color: black;
 }
 
+/*
+    MARK: MAIN
+*/
+
 main {
     margin: 0;
+    overflow: hidden;
 }
 
 #heroContainer {
@@ -148,18 +157,28 @@ main {
 }
 
 #aboutContainer {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+
     background-color: var(--clr-secondary);
     color: var(--text-clr-secondary);
     margin: 3rem 5vw 0 5vw;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-
     border-radius: 1rem;
     padding: 2rem;
     -webkit-box-shadow: -5px 5px 15px -5px #000000;
     box-shadow: -5px 5px 15px -5px #000000;
 }
+
+#aboutImgContainer { 
+    grid-area: img; 
+    display: grid;
+    place-items: center;
+}
+#aboutTitle { grid-area: title; }
+#aboutDescription { grid-area: description; }
 
 #projectsContainer {
     background-color: var(--clr-secondary);
@@ -167,19 +186,99 @@ main {
     margin: 3rem 5vw 0 5vw;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 1rem;
 
     border-radius: 1rem;
-    padding: 2rem;
+    padding: 2rem 0;
     -webkit-box-shadow: -5px 5px 15px -5px #000000;
     box-shadow: -5px 5px 15px -5px #000000;
 }
 
-#projectsListContainer {
-    list-style: none;
+#projectsFilterContainer {
+    display: flex;
+    gap: 0.5rem;
 }
 
-.hidden { display: none; }
+#projectsFilterContainer > button {
+    align-self: center;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 0.75rem;
+    border: none;
+    min-width: 3rem; 
+    display: grid;
+    place-items: center;
+}
+
+#projectsFilter {
+    width: 12rem;
+    display: flex;
+    gap: 0.5rem;
+    overflow: auto;
+}
+
+#projectsFilter > button {
+    min-width: 9rem;
+    max-width: 9rem;
+    height: 3rem;
+    padding: 0 0.5rem;
+}
+
+#projectsListContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+#projectsListContainer > button {
+    align-self: center;
+    height: 9rem;
+    width: 3rem;
+    border-radius: 0.75rem;
+    border: none;
+    min-width: 3rem; 
+    display: grid;
+    place-items: center;
+}
+
+#projectsList {
+    padding: 2vh 0;
+    width: 12rem;
+    overflow-x: scroll;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+#projectsList > li {
+    min-width: 12rem;
+    max-width: 12rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+#projectsList > li > h3 { height: 3rlh; }
+
+#projectsList > li > p { flex-grow: 1; }
+
+#projectsList > li > div {
+    align-self: center;
+    width: 100%;
+    display: flex;
+    gap: 0.5rem;
+}
+
+#projectsList > li > div > button { 
+    height: 3rem;
+    flex-grow: 1;
+    flex-basis: 0;
+    min-width: 0;
+}
+
+.hidden { display: none !important; }
 
 footer {
     margin-top: 3rem;
@@ -223,13 +322,9 @@ footer > ul > li {
         justify-content: space-between;
     }
 
-    #topNavbar {
-        width: auto;
-    }
+    #topNavbar { width: auto; }
 
-    #topNavbar > a {
-        display: none;
-    }
+    #topNavbar > a { display: none; }
 
     #navbarLinks {
         width: 46.25rem;
@@ -237,6 +332,21 @@ footer > ul > li {
         display: flex;
         flex-direction: row;
     }
+
+    #aboutContainer {
+        height: 60vh;
+        display: grid; 
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.4fr 1.6fr;
+        gap: 1rem 2rem;
+        grid-template-areas:
+            "img title"
+            "img description";
+    }
+
+    #projectsFilter { width: calc(9rem * 4 + 1.5rem); }
+
+    #projectsList { width: calc(12rem * 4 + 3rem); }
 
     footer > ul > li { width: 33%; }
 }
