@@ -207,6 +207,8 @@ main {
 }
 
 #projectsFilterContainer > button {
+    background: var(--clr-accent);
+    color: var(--text-clr-accent);
     align-self: center;
     height: 3rem;
     width: 3rem;
@@ -215,6 +217,12 @@ main {
     min-width: 3rem; 
     display: grid;
     place-items: center;
+}
+
+#projectsFilterContainer > button:disabled {    
+    background: var(--clr-secondary);
+    color: var(--text-clr-secondary);
+    outline: solid 0.1rem var(--clr-primary);
 }
 
 #projectsFilter {
@@ -227,10 +235,19 @@ main {
 #projectsFilter > li { list-style: none; }
 
 #projectsFilter > li > button {
+    background: var(--clr-accent);
+    color: var(--text-clr-accent);
     min-width: 9rem;
     max-width: 9rem;
     height: 3rem;
     padding: 0 0.5rem;
+    border-radius: 0.75rem;
+    border: none;
+}
+
+#projectsFilter > li > button.active{
+    background: var(--clr-primary);
+    color: var(--text-clr-primary);
 }
 
 #projectsListContainer {
@@ -241,6 +258,8 @@ main {
 }
 
 #projectsListContainer > button {
+    background: var(--clr-accent);
+    color: var(--text-clr-accent);
     align-self: center;
     height: 9rem;
     width: 3rem;
@@ -249,6 +268,12 @@ main {
     min-width: 3rem; 
     display: grid;
     place-items: center;
+}
+
+#projectsListContainer > button:disabled {    
+    background: var(--clr-secondary);
+    color: var(--text-clr-secondary);
+    outline: solid 0.1rem var(--clr-primary);
 }
 
 #projectsList {
