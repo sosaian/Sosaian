@@ -112,20 +112,19 @@ header {
 }
 
 /* Style navigation menu links */
-#topNavbar a {
-    padding: 1rem;
-    text-decoration: none;
-    font-size: 1rem;
+#topNavbar button {
+    height: 3rem;
+    width: 3rem;
     display: grid;
     place-items: center;
-
 }
 
 /* Style the hamburger menu */
-#topNavbar a.icon {
+#topNavbar button.icon {
     background: var(--clr-accent);
     color: var(--text-clr-accent);
     border-radius: 3rem;
+    border: none;
 }
 
 /* Style the active link (or home/logo) */
@@ -343,7 +342,7 @@ footer > ul > li > a {
 
     #topNavbar { width: auto; }
 
-    #topNavbar > a { display: none; }
+    #topNavbar > button { display: none; }
 
     #navbarLinks {
         width: 46.25rem;
