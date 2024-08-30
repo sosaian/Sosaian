@@ -105,10 +105,14 @@ header {
     background: var(--clr-accent);
     color: var(--text-clr-accent);
     width: 100%;
-    padding: 1rem 0;
+    height: 3rem;
     display: grid;
     place-items: center;
     border-radius: 3rem;
+}
+
+#topNavbar {
+    height: 3rem;
 }
 
 /* Style navigation menu links */
