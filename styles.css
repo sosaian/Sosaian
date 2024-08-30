@@ -157,7 +157,7 @@ main {
 }
 
 #aboutContainer {
-    height: 80vh;
+    min-height: 80vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -177,7 +177,9 @@ main {
     display: grid;
     place-items: center;
 }
+
 #aboutTitle { grid-area: title; }
+
 #aboutDescription { grid-area: description; }
 
 #projectsContainer {
@@ -344,7 +346,7 @@ footer > ul > li > a {
     }
 
     #aboutContainer {
-        height: 60vh;
+        min-height: 60vh;
         display: grid; 
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 0.4fr 1.6fr;
