@@ -177,6 +177,11 @@ main {
     place-items: center;
 }
 
+#aboutImgContainer > img { 
+    border-radius: 0.75rem;
+    border: none;
+}
+
 #aboutTitle { grid-area: title; }
 
 #aboutDescription { grid-area: description; }
