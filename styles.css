@@ -284,30 +284,38 @@ main {
 
 footer {
     margin-top: 3rem;
-    padding: 0 3vw 5rem 3vw;
+    padding: 3rem 3vw 5rem 3vw;
     border-top: solid 0.2rem var(--clr-accent);
     background-color: var(--clr-primary);
     color: var(--text-clr-primary);
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 2rem;
 }
 
-footer > h2 { align-self: center; }
+footer > h2 { 
+    align-self: center;
+    max-width: 21ch;
+}
 
 footer > ul {
     align-self: center;
     list-style: none;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     gap: 1rem;
     width: 90vw;
 }
 
-footer > ul > li {
+footer > ul > li { align-self: center; }
+
+footer > ul > li > a {
+    text-decoration: none;
     cursor: pointer;
+    background: var(--clr-primary);
+    color: var(--text-clr-primary);
     min-height: 3rem;
-    width: 33%;
+    min-width: 9rem;
     display: grid;
     place-items: center;
 }
@@ -350,5 +358,10 @@ footer > ul > li {
 
     #projectsList { width: calc(12rem * 4 + 3rem); }
 
-    footer > ul > li { width: 33%; }
+    footer > h2 { max-width: none; }
+
+    footer > ul { 
+        flex-direction: row;
+        justify-content: center;
+    }
 }
