@@ -275,11 +275,18 @@ main {
     gap: 0.5rem;
 }
 
-#projectsList > li > div > button { 
+#projectsList > li > div > a { 
+    text-decoration: none;
+    cursor: pointer;
+    background: var(--clr-accent);
+    color: var(--text-clr-accent);
     height: 3rem;
     flex-grow: 1;
     flex-basis: 0;
     min-width: 0;
+    border-radius: 0.75rem;
+    display: grid;
+    place-items: center;
 }
 
 .hidden { display: none !important; }
