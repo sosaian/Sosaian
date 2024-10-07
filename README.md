@@ -1,5 +1,5 @@
 # Ian Sosa
-## Frontend web developer | Technical Support | UX/UI Design
+## Frontend Web Developer | Technical Support | UX/UI Design
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0176b5?style=for-the-badge&logo=linkedin&labelColor=black)](https://www.linkedin.com/in/sosaian/)
 [![Email](https://img.shields.io/badge/Email-6c4bff?style=for-the-badge&logo=Protonmail&labelColor=black)](mailto:sosaian@proton.me)
 
