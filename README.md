@@ -1,20 +1,38 @@
-# Ian Sosa
-## Frontend Web Developer | Technical Support | UX/UI Design
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0176b5?style=for-the-badge&logo=linkedin&labelColor=black)](https://www.linkedin.com/in/sosaian/)
-[![Email](https://img.shields.io/badge/Email-6c4bff?style=for-the-badge&logo=Protonmail&labelColor=black)](mailto:sosaian@proton.me)
+<a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&duration=1000&pause=1000&color=F2F2F2&background=12121200&center=true&vCenter=true&width=435&lines=Ian+Sosa;Frontend+web+developer;Technical+Support;UX+Designer" alt="Typing SVG" style="width: 100vw"/>
+</a>
 
-## 💻 My tech stack
-![JavaScript](https://img.shields.io/badge/javascript-f6df1f.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E&labelColor=black)
-![CSS3](https://img.shields.io/badge/css3-1572b6?style=for-the-badge&logo=css3&logoColor=white&labelColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-white?style=for-the-badge&logo=html5&logoColor=white&labelColor=black&color=E34F26)
-![REACTJS](https://img.shields.io/badge/React-3a8397?style=for-the-badge&logo=react&labelColor=black&color=3a8397)
+# 💻 My tech stack
+<p align="center">
+    <a href="#">
+        <img src="https://github.com/user-attachments/assets/53ab7afa-67b4-451a-9d26-f3fd11307540" alt="js" style="vertical-align:top; margin:6px 4px">
+    </a>
+    <a href="#">
+        <img src="https://github.com/user-attachments/assets/82a816c3-31fa-4a4b-a62c-adf040d192da" alt="css3" style="vertical-align:top; margin:6px 4px">
+    </a>
+    <a href="#">
+        <img src="https://github.com/user-attachments/assets/a180763d-3fca-4531-ad93-00590cfe2106" alt="html" style="vertical-align:top; margin:6px 4px">
+    </a>
+    <a href="#">
+        <img src="https://github.com/user-attachments/assets/90e30de2-0a78-4057-bfe6-35b9423cb80f" alt="react" style="vertical-align:top; margin:6px 4px">
+    </a>
+    <a href="#">
+        <img src="https://github.com/user-attachments/assets/6b627f8a-6f84-40e8-9611-6afb2aa8ec21" alt="java" style="vertical-align:top; margin:6px 4px">
+    </a>
+    <a href="#">
+        <img src="https://github.com/user-attachments/assets/dce6f5a7-8a5d-48bc-a0c3-844489b97c9e" alt="nodejs" style="vertical-align:top; margin:6px 4px">
+    </a>
+    <a href="#">
+        <img src="https://github.com/user-attachments/assets/8c6e46f5-be0e-4097-a8a9-2c23f14c3676" alt="jetbrains_intellij" style="vertical-align:top; margin:6px 4px">
+    </a>
+    <a href="#">
+        <img src="https://github.com/user-attachments/assets/e9f6ef3b-f5a7-4577-b46a-d6faef1d6571" alt="visualstudio_code" style="vertical-align:top; margin:6px 4px">
+    </a>
+</p>
+<p align="center">
 
-![JAVA](https://img.shields.io/badge/Java-f89820?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIiB2aWV3Qm94PSIwIDAgMjU2IDM0NiI+CiAgPHBhdGggZD0iTTgzIDI2N3MtMTQgOCA5IDExYzI3IDMgNDEgMiA3MS0zIDAgMCA4IDUgMTkgOS02NyAyOS0xNTMtMi05OS0xN003NCAyMzBzLTE1IDExIDggMTNjMjkgMyA1MiAzIDkyLTQgMCAwIDYgNSAxNSA4LTgyIDI0LTE3MyAyLTExNS0xNyIgZmlsbD0iIzUzODJBMSIvPgogIDxwYXRoIGQ9Ik0xNDQgMTY2YzE3IDE5LTQgMzYtNCAzNnM0Mi0yMiAyMi00OWMtMTgtMjYtMzItMzggNDQtODIgMCAwLTExOSAyOS02MiA5NSIgZmlsbD0iI0U3NkYwMCIvPgogIDxwYXRoIGQ9Ik0yMzMgMjk1czEwIDgtMTAgMTVjLTM5IDEyLTE2MyAxNS0xOTcgMC0xMi01IDExLTEzIDE4LTE0bDEyLTJjLTE0LTktODkgMTktMzggMjggMTM4IDIyIDI1MS0xMCAyMTUtMjdNODkgMTkwcy02MyAxNS0yMiAyMWMxNyAyIDUxIDIgODMtMSAyNi0yIDUyLTcgNTItN2wtMTYgOWMtNjQgMTYtMTg3IDgtMTUxLTkgMzAtMTQgNTQtMTMgNTQtMTNNMjAyIDI1M2M2NC0zMyAzNC02NiAxMy02MWwtNyAyczItMyA2LTVjNDEtMTQgNzMgNDMtMTQgNjZsMi0yIiBmaWxsPSIjNTM4MkExIi8+CiAgPHBhdGggZD0iTTE2MiAwczM2IDM2LTM0IDkxYy01NiA0NS0xMiA3MCAwIDk5LTMyLTMwLTU2LTU2LTQwLTgwIDIzLTM1IDg5LTUzIDc0LTExMCIgZmlsbD0iI0U3NkYwMCIvPgogIDxwYXRoIGQ9Ik05NSAzNDVjNjIgNCAxNTgtMyAxNjAtMzIgMCAwLTQgMTEtNTEgMjAtNTMgMTAtMTE5IDktMTU4IDIgMCAwIDggNyA0OSAxMCIgZmlsbD0iIzUzODJBMSIvPgo8L3N2Zz4K&labelColor=black)
-![GIT](https://img.shields.io/badge/Git-f05032?style=for-the-badge&logo=git&labelColor=black&color=f05032)
-![GITHUB](https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github&labelColor=black&color=white)
-![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white&labelColor=black&color=white)
+</p>
 
 ## My Github stats
 ![GITHUB_LANGUAGES](https://github-readme-stats.vercel.app/api/top-langs?username=sosaian&show_icons=true&locale=en&theme=highcontrast)
 ![GITHUB_STATS](https://github-readme-stats.vercel.app/api?username=sosaian&show_icons=true&locale=en&theme=highcontrast)
-![GITHUB_STREAK](https://github-readme-streak-stats.herokuapp.com/?user=sosaian&theme=highcontrast)
