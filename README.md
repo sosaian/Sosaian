@@ -8,7 +8,7 @@
     Credit to MikeCodesDotNET for this ColoredBadges
     https://github.com/MikeCodesDotNET/ColoredBadges/tree/master
 -->
-<details open>
+<details open align="center">
     <summary><h1>💻 Tech stack</h1></summary>
     <table align="center">
     <tr>
@@ -30,7 +30,7 @@
     Credit to Anuraghazra for this github-readme-stats
     https://github.com/anuraghazra/github-readme-stats
 -->
-<details open>
+<details open  align="center">
     <summary><h2>📜 Github stats</h2></summary>
     <div align="center">
         <img src="https://github-readme-stats.vercel.app/api/top-langs?username=sosaian&show_icons=true&locale=en&theme=highcontrast">
