@@ -2,7 +2,7 @@
     Credit to DenverCoder1 for this readme-typing-svg
     https://github.com/denvercoder1/readme-typing-svg
 -->
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&duration=1000&pause=1000&color=F2F2F2&background=12121200&center=true&vCenter=true&width=435&lines=Ian+Sosa;Frontend+Web+Developer;Technical+Support;UX+Designer" alt="Typing SVG" style="width: 100vw"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&duration=1000&pause=1000&color=F2F2F2&background=12121200&center=true&vCenter=true&width=435&lines=Ian+Sosa;Frontend+Web+Developer;Technical+Support+Specialist;UX/UI+Designer" alt="Typing SVG" style="width: 100vw"/>
 
 <!-- 
     Credit to MikeCodesDotNET for this ColoredBadges
