@@ -50,7 +50,7 @@
             <td width="50%">
                 <h3 align="center">Freelance: ERP for Lua Petshop</h3>
                 <div>
-                    <img src="https://github.com/user-attachments/assets/585e73f2-fa48-457c-9028-545a66256918" width="300" alt="Lua Petshop Logo">
+                    <img src="https://github.com/user-attachments/assets/8b5f94ef-9e93-4f3f-bbe5-e9f91a67ac77" width="300" alt="Lua Petshop Logo">
                 </div>
                 <p>Frontend built using vanilla Javascript (ES6+) + CSS + HTML, Thymeleaf; Backend built with Java + Spring Boot, Maven</p>
                 <div>
