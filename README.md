@@ -32,30 +32,30 @@
     <summary><h1>💻 Portfolio</h1></summary>
     <table align="center">
         <tr>
-            <td width="50%">
-                <h3 align="center">Volunteering: Website for FARA</h3>
-                <div>
-                    <img src="https://github.com/user-attachments/assets/27b43531-4f94-4585-a4ce-9cf92fdece85" width="300" alt="FARA Logo">
+            <td width="50%" sytle="display:flex;flex-direction:column;gap:1rem;">
+                <h3 align="center" style="min-height:2rlh">Volunteering: Website for FARA</h3>
+                <div style="height:200px;display:grid;place-items:center;">
+                    <img src="https://github.com/user-attachments/assets/27b43531-4f94-4585-a4ce-9cf92fdece85" alt="FARA Logo">
                 </div>
-                <p>Full-Stack WCAG-compliant website using React.js + vite, TailwindCSS, Node.js + Express, MongoDB + Mongoose</p>
+                <p style="min-height:5rlh;text-align:left;text-wrap:balance">Led volunteer team building this NGO website (React, Vite, TailwindCSS) to attract donations/partnerships. Focused on architecting and developing the performant, WCAG-compliant frontend.</p>
                 <div>
                     <a href="https://github.com/Proyecto-Cilsa-Fara/Front_Cilsa_Fara-Web" target="_blank">
-                        <img src="https://img.shields.io/badge/Code-cac3a7?style=for-the-badge&logo=github&logoColor=black" height="48" alt="View this project's code">
+                        <img src="https://img.shields.io/badge/Code-3b3a31?style=for-the-badge&logo=github&logoColor=white" height="48" alt="View this project's code" style="border-width:0.1rem;border-radius:12px">
                     </a>
                     <a href="https://fara.onrender.com" target="_blank">
-                        <img src="https://img.shields.io/badge/Demo-cac3a7?logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjBweCIgdmlld0JveD0iMCAtOTYwIDk2MCA5NjAiIHdpZHRoPSIyMHB4IiBmaWxsPSIjMTIxMjEyIiBhcmlhLWhpZGRlbj0idHJ1ZSI+DQogICAgPHBhdGggZD0ibTM4MC0zMDAgMjgwLTE4MC0yODAtMTgwdjM2MFpNNDgwLTgwcS04MyAwLTE1Ni0zMS41VDE5Ny0xOTdxLTU0LTU0LTg1LjUtMTI3VDgwLTQ4MHEwLTgzIDMxLjUtMTU2VDE5Ny03NjNxNTQtNTQgMTI3LTg1LjVUNDgwLTg4MHE4MyAwIDE1NiAzMS41VDc2My03NjNxNTQgNTQgODUuNSAxMjdUODgwLTQ4MHEwIDgzLTMxLjUgMTU2VDc2My0xOTdxLTU0IDU0LTEyNyA4NS41VDQ4MC04MFptMC04MHExMzQgMCAyMjctOTN0OTMtMjI3cTAtMTM0LTkzLTIyN3QtMjI3LTkzcS0xMzQgMC0yMjcgOTN0LTkzIDIyN3EwIDEzNCA5MyAyMjd0MjI3IDkzWm0wLTMyMFoiLz4NCjwvc3ZnPg==" height="48" alt="View this project's deployment">
+                        <img src="https://img.shields.io/badge/Demo-3b3a31?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iNDhweCIgdmlld0JveD0iMCAtOTYwIDk2MCA5NjAiIHdpZHRoPSI0OHB4IiBmaWxsPSIjZmZmZmZmIiBhcmlhLWhpZGRlbj0idHJ1ZSI+DQogICAgPHBhdGggZD0ibTM4MC0zMDAgMjgwLTE4MC0yODAtMTgwdjM2MFpNNDgwLTgwcS04MyAwLTE1Ni0zMS41VDE5Ny0xOTdxLTU0LTU0LTg1LjUtMTI3VDgwLTQ4MHEwLTgzIDMxLjUtMTU2VDE5Ny03NjNxNTQtNTQgMTI3LTg1LjVUNDgwLTg4MHE4MyAwIDE1NiAzMS41VDc2My03NjNxNTQgNTQgODUuNSAxMjdUODgwLTQ4MHEwIDgzLTMxLjUgMTU2VDc2My0xOTdxLTU0IDU0LTEyNyA4NS41VDQ4MC04MFptMC04MHExMzQgMCAyMjctOTN0OTMtMjI3cTAtMTM0LTkzLTIyN3QtMjI3LTkzcS0xMzQgMC0yMjcgOTN0LTkzIDIyN3EwIDEzNCA5MyAyMjd0MjI3IDkzWm0wLTMyMFoiLz4NCjwvc3ZnPg==" height="48" alt="View this project's deployment" style="border-width:0.1rem;border-radius:12px">
                     </a>
                 </div>
             </td>
-            <td width="50%">
-                <h3 align="center">Freelance: ERP for Lua Petshop</h3>
-                <div>
-                    <img src="https://github.com/user-attachments/assets/8b5f94ef-9e93-4f3f-bbe5-e9f91a67ac77" width="300" alt="Lua Petshop Logo">
+            <td width="50%" sytle="display:flex;flex-direction:column;gap:1rem;">
+                <h3 align="center" style="min-height:2rlh">Freelance: ERP for Lua Petshop</h3>
+                <div style="height:200px;display:grid;place-items:center;">
+                    <img src="https://github.com/user-attachments/assets/8b5f94ef-9e93-4f3f-bbe5-e9f91a67ac77" alt="Lua Petshop Logo">
                 </div>
-                <p>Frontend built using vanilla Javascript (ES6+) + CSS + HTML, Thymeleaf; Backend built with Java + Spring Boot, Maven</p>
+                <p style="min-height:5rlh;text-align:left;text-wrap:balance">Developed the frontend module for a custom ERP (Vanilla JS ES6+, CSS, HTML) in a 2-person team. Leveraged Thymeleaf for tight integration with the Java/Spring backend.</p>
                 <div>
                     <a href="https://github.com/julyvjo/luapetshop" target="_blank">
-                        <img src="https://img.shields.io/badge/Code-cac3a7?style=for-the-badge&logo=github&logoColor=black" height="48" alt="View this project's code">
+                        <img src="https://img.shields.io/badge/Code-3b3a31?style=for-the-badge&logo=github&logoColor=white" height="48" alt="View this project's code" style="border-width:0.1rem;border-radius:12px">
                     </a>
                 </div>
             </td>
