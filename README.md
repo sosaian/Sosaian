@@ -83,9 +83,6 @@
                     <a href="https://github.com/No-Country-simulation/S20-17-webapp" target="_blank">
                         <img src="https://img.shields.io/badge/Code-3b3a31?style=for-the-badge&logo=github&logoColor=white" height="48" alt="View this project's code" style="border-width:0.1rem;border-radius:12px">
                     </a>
-                    <a href="https://avanti-dpn0.onrender.com/" target="_blank">
-                        <img src="https://img.shields.io/badge/Demo-3b3a31?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iNDhweCIgdmlld0JveD0iMCAtOTYwIDk2MCA5NjAiIHdpZHRoPSI0OHB4IiBmaWxsPSIjZmZmZmZmIiBhcmlhLWhpZGRlbj0idHJ1ZSI+DQogICAgPHBhdGggZD0ibTM4MC0zMDAgMjgwLTE4MC0yODAtMTgwdjM2MFpNNDgwLTgwcS04MyAwLTE1Ni0zMS41VDE5Ny0xOTdxLTU0LTU0LTg1LjUtMTI3VDgwLTQ4MHEwLTgzIDMxLjUtMTU2VDE5Ny03NjNxNTQtNTQgMTI3LTg1LjVUNDgwLTg4MHE4MyAwIDE1NiAzMS41VDc2My03NjNxNTQgNTQgODUuNSAxMjdUODgwLTQ4MHEwIDgzLTMxLjUgMTU2VDc2My0xOTdxLTU0IDU0LTEyNyA4NS41VDQ4MC04MFptMC04MHExMzQgMCAyMjctOTN0OTMtMjI3cTAtMTM0LTkzLTIyN3QtMjI3LTkzcS0xMzQgMC0yMjcgOTN0LTkzIDIyN3EwIDEzNCA5MyAyMjd0MjI3IDkzWm0wLTMyMFoiLz4NCjwvc3ZnPg==" height="48" alt="View this project's deployment" style="border-width:0.1rem;border-radius:12px">
-                    </a>
                 </div>
             </td>
         </tr>
