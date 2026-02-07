@@ -45,7 +45,7 @@
                 <div style="height:200px;display:grid;place-items:center;">
                     <img src="https://github.com/user-attachments/assets/8b5f94ef-9e93-4f3f-bbe5-e9f91a67ac77" alt="Lua Petshop Logo">
                 </div>
-                <p style="min-height:5rlh;text-align:left;text-wrap:balance">Developed the frontend module for a custom ERP (Vanilla JS ES6+, CSS, HTML) in a 2-person team. Leveraged Thymeleaf for tight integration with the Java/Spring/MySQL backend.</p>
+                <p style="min-height:5rlh;text-align:left;text-wrap:balance">Developed the frontend module of a custom ERP using Vanilla JS (ES6+), HTML and CSS. Integrated views with a Java Spring/MySQL backend through Thymeleaf in a small, close-collaboration team.</p>
                 <div>
                     <a href="https://github.com/julyvjo/luapetshop" target="_blank">
                         <img src="https://img.shields.io/badge/Code-3b3a31?style=for-the-badge&logo=github&logoColor=white" height="48" alt="View this project's code" style="border-width:0.1rem;border-radius:12px">
