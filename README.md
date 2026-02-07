@@ -71,7 +71,7 @@
                 <div style="height:200px;display:grid;place-items:center;">
                     <img src="https://github.com/user-attachments/assets/834f8e29-1f82-426e-99bd-4fdee3463673" alt="Avanti Logo">
                 </div>
-                <p style="min-height:5rlh;text-align:left;text-wrap:balance">Built full-stack MVP of a startup funding platform (React, Vite, Express, MongoDB) in agile team. Delivered secure authentication (JWT), integrated Cloudinary for media handling, and focused on clean, responsive UX.</p>
+                <p style="min-height:5rlh;text-align:left;text-wrap:balance">Contributed to the development of a full-stack MVP for a startup funding platform using React (Vite) and Express. Participated in frontend implementation, client feedback iterations, and agile team coordination.</p>
                 <div>
                     <a href="https://github.com/No-Country-simulation/S20-17-webapp" target="_blank">
                         <img src="https://img.shields.io/badge/Code-3b3a31?style=for-the-badge&logo=github&logoColor=white" height="48" alt="View this project's code" style="border-width:0.1rem;border-radius:12px">
