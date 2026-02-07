@@ -85,7 +85,7 @@
                 <div style="height:200px;display:grid;place-items:center;">
                     <img src="https://github.com/user-attachments/assets/49c550cd-3b08-4399-a876-bb93d0e67cf9" alt="Bytewise Logo">
                 </div>
-                <p style="min-height:5rlh;text-align:left;text-wrap:balance">Built a personal finance management app (React, Vite) with income/expense tracking and task management. Focused on clean API integration, secure configs, and agile teamwork (Express, MySQL).</p>
+                <p style="min-height:5rlh;text-align:left;text-wrap:balance">Designed and developed a personal finance web application using React (Vite), Express and MySQL. Implemented authentication, environment configuration, and iterative improvements based on feedback.</p>
                 <div>
                     <a href="https://github.com/sosaian/bytewise-frontend" target="_blank">
                         <img src="https://img.shields.io/badge/Code-3b3a31?style=for-the-badge&logo=github&logoColor=white" height="48" alt="View this project's code" style="border-width:0.1rem;border-radius:12px">
