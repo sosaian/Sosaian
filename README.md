@@ -59,7 +59,7 @@
                 <div style="height:200px;display:grid;place-items:center;">
                     <img src="https://github.com/user-attachments/assets/58f27a8a-dd65-4fe2-b2f3-743a0a02c778" alt="Segundas Huellas Logo">
                 </div>
-                <p style="min-height:5rlh;text-align:left;text-wrap:balance">Developed full-stack pet adoption platform (React, Vite, Spring Boot, Docker) in agile team. Focused on pixel-perfect UI, secure environment configs, and GitHub-based issue tracking for clean, collaborative delivery.</p>
+                <p style="min-height:5rlh;text-align:left;text-wrap:balance">Contributed to a full-stack pet adoption platform built with React (Vite) and Spring Boot. Focused on frontend implementation, UI accuracy, and team coordination within an agile, client-driven workflow.</p>
                 <div>
                     <a href="https://github.com/No-Country-simulation/C22-23-t-webapp" target="_blank">
                         <img src="https://img.shields.io/badge/Code-3b3a31?style=for-the-badge&logo=github&logoColor=white" height="48" alt="View this project's code" style="border-width:0.1rem;border-radius:12px">
