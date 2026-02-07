@@ -18,13 +18,6 @@
             <td align="center"><img src="https://github.com/user-attachments/assets/90e30de2-0a78-4057-bfe6-35b9423cb80f" alt="react"></td>
             <td align="center"><img src="https://github.com/user-attachments/assets/9c888a98-c165-4c6f-84f3-baa87a479754" alt="tailwind css"></td>
         </tr>
-        <tr>
-            <td align="center"><img src="https://github.com/user-attachments/assets/6b627f8a-6f84-40e8-9611-6afb2aa8ec21" alt="java"></td>
-            <td align="center"><img src="https://github.com/user-attachments/assets/dce6f5a7-8a5d-48bc-a0c3-844489b97c9e" alt="node js"></td>
-            <td align="center"><img src="https://github.com/user-attachments/assets/8ba0de95-7e51-4f6d-bb93-bea0024eea77" alt="web development"></td>
-            <td align="center"><img src="https://github.com/user-attachments/assets/8c6e46f5-be0e-4097-a8a9-2c23f14c3676" alt="jetbrains_intellij"></td>
-            <td align="center"><img src="https://github.com/user-attachments/assets/e9f6ef3b-f5a7-4577-b46a-d6faef1d6571" alt="visualstudio_code"></td>
-        </tr>
     </table>
 </details>
 
@@ -113,16 +106,4 @@
             </td>
         </tr>
     </table>
-</details>
-
-<!--
-    Credit to Anuraghazra for this github-readme-stats
-    https://github.com/anuraghazra/github-readme-stats
--->
-<details open  align="center">
-    <summary><h2>📜 Github stats</h2></summary>
-    <div align="center">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs?username=sosaian&show_icons=true&locale=en&theme=highcontrast">
-        <img src="https://github-readme-stats.vercel.app/api?username=sosaian&show_icons=true&locale=en&theme=highcontrast">
-    </div>
 </details>
