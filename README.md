@@ -97,7 +97,7 @@
                 <div style="height:200px;display:grid;place-items:center;">
                     <img src="https://github.com/user-attachments/assets/bdda7487-b4f3-4155-a3bb-69941cff62fd" alt="Farma-CLI Logo">
                 </div>
-                <p style="min-height:5rlh;text-align:left;text-wrap:balance">Developed a CLI tool to fetch and query live pharmaceutical pricing data (Java 17, JetBrains IntelliJ IDEA, Eclipse). Enabled efficient CSV parsing and search functionality to streamline access to government-published datasets.</p>
+                <p style="min-height:5rlh;text-align:left;text-wrap:balance">Developed a Java-based CLI tool to parse and analyze pharmaceutical pricing datasets from Argentina's official government sources. Supports CSV ingestion from manually downloaded files, enabling fast local search and inspection.</p>
                 <div>
                     <a href="https://github.com/sosaian/FarmaCLI" target="_blank">
                         <img src="https://img.shields.io/badge/Code-3b3a31?style=for-the-badge&logo=github&logoColor=white" height="48" alt="View this project's code" style="border-width:0.1rem;border-radius:12px">
