@@ -30,7 +30,7 @@
                 <div style="height:200px;display:grid;place-items:center;">
                     <img src="https://github.com/user-attachments/assets/27b43531-4f94-4585-a4ce-9cf92fdece85" alt="FARA Logo">
                 </div>
-                <p style="min-height:5rlh;text-align:left;text-wrap:balance">Led volunteer team building this NGO website (React, Vite, TailwindCSS) to attract donations/partnerships. Focused on architecting and developing the performant, WCAG-compliant frontend.</p>
+                <p style="min-height:5rlh;text-align:left;text-wrap:balance">Led frontend development for an NGO website built with React, Vite and TailwindCSS. Focused on performance, accessibility (WCAG), and collaborative delivery within a multidisciplinary volunteer team.</p>
                 <div>
                     <a href="https://github.com/Proyecto-Cilsa-Fara/Front_Cilsa_Fara-Web" target="_blank">
                         <img src="https://img.shields.io/badge/Code-3b3a31?style=for-the-badge&logo=github&logoColor=white" height="48" alt="View this project's code" style="border-width:0.1rem;border-radius:12px">
