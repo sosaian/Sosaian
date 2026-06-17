@@ -111,5 +111,5 @@
 
 <details open align="center">
     <summary><h2>📊 GitHub Stats</h2></summary>
-    <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=&theme=transparent&hide_border=true&date_format=%5BY%20%5DM%20j" alt="GitHub Streak" style="width: 100vw" /></a>
+    <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=sosaian&theme=transparent&hide_border=true&date_format=%5BY%20%5DM%20j" alt="GitHub Streak" style="width: 100vw" /></a>
 </details>
